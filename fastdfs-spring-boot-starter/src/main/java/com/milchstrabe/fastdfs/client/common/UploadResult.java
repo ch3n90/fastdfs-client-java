@@ -6,31 +6,31 @@ package com.milchstrabe.fastdfs.client.common;
  * @Version 1.0
  * @Description
  **/
-public class UploadResponse {
+public class UploadResult {
 
     private boolean isSuccess;
     private String msg;
     private String path;
 
-    private UploadResponse(){}
+    private UploadResult(){}
 
-    public static UploadResponse builder(){
-        return new UploadResponse();
+    public static UploadResult builder(){
+        return new UploadResult();
     }
 
-    public UploadResponse isSuccess(boolean isSuccess){
+    public UploadResult isSuccess(boolean isSuccess){
         this.isSuccess = isSuccess;
         return this;
     }
 
 
-    public UploadResponse msg(String msg){
+    public UploadResult msg(String msg){
         this.msg = msg;
         return this;
     }
 
 
-    public UploadResponse path(String path){
+    public UploadResult path(String path){
         this.path = path;
         return this;
     }
