@@ -1,2 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.milchstrabe.fastdfs.client.config.FastdfsServiceAutoConfiguration
+com.milchstrabe.fastdfs.client.config.FastdfsServiceAutoConfiguration,\
+com.milchstrabe.fastdfs.client.service.FastdfsTemplate

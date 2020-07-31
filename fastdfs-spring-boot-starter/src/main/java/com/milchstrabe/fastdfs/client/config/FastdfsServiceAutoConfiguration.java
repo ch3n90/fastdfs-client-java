@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 
 import java.io.IOException;
 
@@ -23,10 +24,8 @@ public class FastdfsServiceAutoConfiguration {
 
 
     @Bean
-    public TrackerClient trackerClient() throws IOException, MyException {
+    public void fastdfsServiceAutoConfiguration() throws MyException {
         ClientGlobal.init(fastdfsProperties,fastdfsPoolProperties,fastdfsHttpProperties);
-        TrackerClient tracker = new TrackerClient();
-        return tracker;
     }
 
 
