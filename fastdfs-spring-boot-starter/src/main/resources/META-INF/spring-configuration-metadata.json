@@ -1,0 +1,66 @@
+{
+  "groups": [
+    {
+      "name": "spring.fastdfs",
+      "type": "com.milchstrabe.fastdfs.client.config.FastdfsProperties"
+    },
+    {
+      "name": "spring.fastdfs.pool",
+      "type": "com.milchstrabe.fastdfs.client.config.FastdfsPoolProperties"
+    },
+    {
+      "name": "spring.fastdfs.http",
+      "type": "com.milchstrabe.fastdfs.client.config.FastdfsHttpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.fastdfs.connect-timeout",
+      "type": "java.lang.Integer",
+      "description": "unit secands"
+    },
+    {
+      "name": "spring.fastdfs.network-timeout",
+      "type": "java.lang.Integer",
+      "description": "unit secands"
+    },
+    {
+      "name": "spring.fastdfs.charset",
+      "type": "java.lang.String"
+    },
+    {
+      "name": "spring.fastdfs.tracker-server",
+      "type": "java.lang.String",
+      "description": "eg:10.40.7.26:22122,10.40.7.26:22122"
+
+    },
+    {
+      "name": "spring.fastdfs.pool.enabled",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "spring.fastdfs.pool.max-count-per-entry",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "spring.fastdfs.pool.max-idle-time",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "spring.fastdfs.pool.max-wait-time-in-ms",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "spring.fastdfs.http.http-port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "name": "spring.fastdfs.http.http-token",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "name": "spring.fastdfs.http.http-secret-key",
+      "type": "java.lang.String"
+    }
+  ]
+}
