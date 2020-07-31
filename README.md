@@ -3,7 +3,7 @@ FastdDFS springboot starter 客户端
 
 ## 介绍
 
-在原作者 [YuQing][https://github.com/happyfish100]原项目[fastdfs-client-java][https://github.com/happyfish100/fastdfs-client-java]进行简单封装
+在原作者 [YuQing](https://github.com/happyfish100)原项目[fastdfs-client-java](https://github.com/happyfish100/fastdfs-client-java)进行简单封装
 
 ## 使用maven安装
 
