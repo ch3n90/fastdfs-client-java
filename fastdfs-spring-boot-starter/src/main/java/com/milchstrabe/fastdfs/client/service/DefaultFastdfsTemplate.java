@@ -10,10 +10,9 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 
 /**
- * @Author ch3ng
- * @Date 2020/7/31 22:08
- * @Version 1.0
- * @Description
+ * Default fastdfs client impl
+ * @author ch3ng
+ * @since 1.0
  **/
 public class DefaultFastdfsTemplate implements FastdfsTemplate {
     private static final Logger logger = LoggerFactory.getLogger(DefaultFastdfsTemplate.class);

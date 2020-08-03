@@ -1,10 +1,9 @@
 package com.milchstrabe.fastdfs.client.common;
 
 /**
- * @Author ch3ng
- * @Date 2020/7/31 10:46
- * @Version 1.0
- * @Description
+ * fastdfs client response
+ * @author ch3ng
+ * @since  1.0
  **/
 public class UploadResult {
 

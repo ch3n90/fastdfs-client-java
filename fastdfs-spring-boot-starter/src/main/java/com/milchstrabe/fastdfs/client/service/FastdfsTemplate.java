@@ -4,7 +4,6 @@ import com.milchstrabe.fastdfs.client.common.MyException;
 import com.milchstrabe.fastdfs.client.common.NameValuePair;
 import com.milchstrabe.fastdfs.client.common.UploadResult;
 import com.milchstrabe.fastdfs.client.fastdfs.DownloadCallback;
-import com.milchstrabe.fastdfs.client.fastdfs.FileInfo;
 import com.milchstrabe.fastdfs.client.fastdfs.UploadCallback;
 
 import java.io.IOException;
