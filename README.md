@@ -5,11 +5,8 @@ FastdDFS springboot starter 客户端
 
 在原作者 [YuQing](https://github.com/happyfish100)原项目[fastdfs-client-java](https://github.com/happyfish100/fastdfs-client-java)进行简单封装
 
-## 使用maven安装
+会跟进原作者项目一直持续发布，目前基于1.29封装
 
-```shell
-mvn clean install
-```
 
 ## maven项目pom.xml中添加依赖
 
@@ -17,7 +14,7 @@ mvn clean install
 <dependency>
     <groupId>com.milchstrabe.fastdfs.client</groupId>
     <artifactId>fastdfs-spring-boot-starter</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
 
@@ -75,4 +72,5 @@ public class TestFastdfsApplication {
 
 ## License
 
- FastDFS java client Under the BSD license. See the [LICENSE](https://github.com/ch3n90/fastdfs-client-java/LICENSE) file for details.
+ FastDFS java client is under the Apache 2.0 license. See the [LICENSE](https://github.com/ch3n90/fastdfs-client-java/blob/master/LICENSE) file for details.
+
